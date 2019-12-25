@@ -18,8 +18,8 @@ const IndexPage = ({ data }) => {
 
           return (
             <Link to={`/${path}`} key={path}>
-              <p>{ title }</p>
-          <p>{ date }</p>
+            <p>{ title }</p>
+            <p>{ date }</p>
             </Link>
           )
         }) }
